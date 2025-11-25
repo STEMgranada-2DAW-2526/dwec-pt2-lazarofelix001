@@ -1,8 +1,8 @@
 import { useEffect, useReducer } from 'react'
 import './App.css'
 import arbolLaser from'./assets/arbol_laser.png';
-import canion_turron from'./assets/canion_turron.png';
-import caramelo_sangriento from'./assets/caramelo_sangriento.png';
+import canionTurron from'./assets/canion_turron.png';
+import carameloSangriento from'./assets/caramelo_sangriento.png';
 import multiplicador from'./assets/multiplicador.png';
 import renoLanzaCohetes from'./assets/reno_lanza_cohetes.png';
 import torre from'./assets/torre.png';
@@ -17,5 +17,15 @@ const INITIAL_STATE = {
 }
 export default function App() {
 
+return(
+   <div>
+	<img classname = 'canionTurron' src={canionTurron}/>
+	<img classname = 'arbol' src={arbolLaser}/>
+	<img classname = 'caramelo' src={carameloSangriento}/>
+	<img classname = 'multiplicador' src={multiplicador}/>
+	<img classname = 'reno' src={renoLanzaCohetes}/>
+	<img classname = 'torre' src={torre}/>
+   </div>
 
+)
 }
