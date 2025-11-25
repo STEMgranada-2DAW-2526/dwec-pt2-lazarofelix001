@@ -42,6 +42,6 @@ return(
 	<img classname = 'torre' src={torre}/>
 	</div>
    </div>
-
+ 
 )
 }
