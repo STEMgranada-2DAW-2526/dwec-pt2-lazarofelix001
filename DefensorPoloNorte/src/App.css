@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+.interfaz{
+	display:flex;
+	align: center;
+	flex-direction: row;
+	gap: 20px;
+
+}
+.danioOleada{
+ color: #000000;
+ background-color:#FFFFFF;
+ padding: 10px;
+}.Caramelos{
+ color: #000000;
+ background-color:#FFFFFF;
+ padding: 10px;
+}.Oleada{
+ color: #000000;
+ background-color:#FFFFFF;
+ padding: 10px;
+}

@@ -24,7 +24,10 @@ return(
 	</div>
 	<div class = 'interfaz'>
 		<div class = 'danioOleada'><p>Daño de oleada</p></div>
-		<div class = 'Caramelos'><p>Caramelos</p></div>
+		<div class = 'Caramelos'>
+		<p>Caramelos</p>
+		<img width="50" height="50" classname = 'caramelo' src={carameloSangriento}/>
+		</div>
 		<div class = 'Oleada'><p>Oleada</p></div>
 	</div>
 	<div>
@@ -34,7 +37,6 @@ return(
 
 	<div>
 	<img classname = 'arbol' src={arbolLaser}/>
-	<img classname = 'caramelo' src={carameloSangriento}/>
 	<img classname = 'multiplicador' src={multiplicador}/>
 	<img classname = 'reno' src={renoLanzaCohetes}/>
 	<img classname = 'torre' src={torre}/>
