@@ -19,12 +19,23 @@ export default function App() {
 
 return(
    <div>
-	<img classname = 'canionTurron' src={canionTurron}/>
+	<div>
+		<h1 align = 'center'> Defensor del polo norte</h1>
+	</div>
+	<div>
+	</div>
+	<div>
+		<h1>Disparar</h1>
+		<img classname = 'canionTurron' src={canionTurron}/>
+	</div>
+
+	<div>
 	<img classname = 'arbol' src={arbolLaser}/>
 	<img classname = 'caramelo' src={carameloSangriento}/>
 	<img classname = 'multiplicador' src={multiplicador}/>
 	<img classname = 'reno' src={renoLanzaCohetes}/>
 	<img classname = 'torre' src={torre}/>
+	</div>
    </div>
 
 )
