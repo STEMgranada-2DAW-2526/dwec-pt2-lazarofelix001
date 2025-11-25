@@ -1,11 +1,11 @@
 import { useEffect, useReducer } from 'react'
 import './App.css'
-import './assets/arbol_laser.png';
-import './assets/canion_turron.png';
-import './assets/caramelo_sangriento.png';
-import './assets/multiplicador.png';
-import './assets/reno_lanza_cohetes.png';
-import './assets/torre.png';
+import arbolLaser from'./assets/arbol_laser.png';
+import canion_turron from'./assets/canion_turron.png';
+import caramelo_sangriento from'./assets/caramelo_sangriento.png';
+import multiplicador from'./assets/multiplicador.png';
+import renoLanzaCohetes from'./assets/reno_lanza_cohetes.png';
+import torre from'./assets/torre.png';
 
 const INITIAL_STATE = {
   damageDealt: 0,
@@ -14,4 +14,8 @@ const INITIAL_STATE = {
   damagePerShot:1,
   autoShotPerSecond:1,
   upgrades: [],
+}
+export default function App() {
+
+
 }
