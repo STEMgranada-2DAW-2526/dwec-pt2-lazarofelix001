@@ -22,7 +22,10 @@ return(
 	<div>
 		<h1 align = 'center'> Defensor del polo norte</h1>
 	</div>
-	<div>
+	<div class = 'interfaz'>
+		<div><p>Daño de oleada</p></div>
+		<div><p>Caramelos</p></div>
+		<div><p>Oleada</p></div>
 	</div>
 	<div>
 		<h1>Disparar</h1>
